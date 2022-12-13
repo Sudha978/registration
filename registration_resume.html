@@ -1,0 +1,171 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+} 
+
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container" id="first">  
+  <center>  <h1> Student Registeration Form</h1> </center>  
+  <hr>  
+  <label> Firstname </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label> Middlename: </label>   
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+<label> Lastname: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+<div>  
+<label>   
+Course :  
+</label>   
+  
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>  
+</div>  
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+    <button type="submit" class="registerbtn">Register</button>    
+</form>
+<div class="container" id="Second">
+    <body>
+        <h1 align="center"><u>Student Detalis</u></h1>
+        <div style="color:Pink;font-size:15px;font-style:oblique;background-color:black">
+           <h2>Name:S.Sudha</h2>
+           <h2>date of Birth :23-05-2001</h2>
+           <h2>Email id :settesudha@gmail.com</h2>
+           <h2>Contact no:9441022250</h2>
+        </div>
+        <div>
+            <p style="color:aqua;font-size:23px;font-style:normal;font-family:Arial Narrow;background-color:black"></p>
+        </div>
+        <div style="color:yellowgreen;font-size:20px;font-style:normal;font-size:20px;font-style:italic;background-color:black">
+            <h2><u>Eductional Qualifications:</u></h2>
+            <table border="2px";cellspacing="2px";cellpadding="8px">
+                <tr><th>Qualification</th>
+                    <th>Course</th>
+                    <th>Name of the Institution</th>
+                    <th>Name of the university</th>
+                    <th>Year of passing</th>
+                    <th>GPA obtained</th>
+                </tr>
+                <tr><td>Graduation</td>
+                    <td>BZC</td>
+                    <td>St.joseph's Degree College</td>
+                    <td>Rayalaseema university</td>
+                    <td>2023</td>
+                    <td>7.37</td>
+                </tr><td>Intermediate</td>
+                     <td>Bipc</td>
+                     <td>St.joseph's womens college</td>
+                     <td>Board of the Intermediate Eduction</td>
+                     <td>2019</td>
+                    <td>6.64</td>
+            </tr>
+            <tr><td>SSC</td>
+                <td>10th class</td>
+                <td>Board of the Secondary Eduction</td>
+                <td>Yashoda High School</td>
+                <td>2017</td>
+                <td>7.8</td>
+            </tr>
+            <table>
+            </div>
+            
+            <div style="color:peru;font-size:25px;font-style:normal;background-color:black">
+                <h3><u>Hobbies:</u></h3>
+                <h4>Darwing</h4>
+                <h4>listening song</h4>
+                <h4>Travelling</h4>
+                </div>
+
+                <div style="color:gray;font-size:25px;font-style:normal;background-color:black">
+                    <h3><u>Skill:</u></h3>
+                    <h4>Salesforce</h4>
+                    <h4>Ms office</h4>
+                    <h4>Computer Knowledge</h4>
+                    </div>
+            <div style="color:blue;font-size:25px;font-style:normal:background-color:black">
+                <h3><u>Strengths:</u></h3>
+                <h4>confident and determined</h4>
+                <h4>excellent communication</h4>
+            </div>
+            <div style="color:aqua;font-size:25px;font-style:normal:blackground-color:black">
+                <p>
+                <h3><u>Declaration:</u></h3>
+                    I here by declare that the above information presented in this resume is valid and true to my knowledge.
+                    <h2 align="right">Signature</h2>
+                    <h3 align="right">S.Sudha</h3>
+                    </p>
+                    </div>
+                    </body>
+                    </html>  
